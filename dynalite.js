@@ -1,39 +1,26 @@
 // Author: Michael Diedricks
 // Date: 01 April 2020
 // 
-// const setFunction = () => {
-//     fetch(`http://`+inputIp+`/SetDyNet.cgi?`+`a=`+inputA+`&p=`+inputP,{
-//         method: "post"
-//     })
-//     .then(res => res.text())
-//     .then(data =>{	
-//        document.getElementById('divID').innerHTML = (data);		
-//     })
-// }
+// The following are javascript functions created
+// for Philips dynalite server queries.
 // 
-// const getFunction = () => {
-//     fetch(`http://`+inputIp+`/SetDyNet.cgi?`+`a=`+inputA+`&p=`+inputP)
-//     .then(res => res.text())
-//     .then(data =>{	
-//          document.getElementById('divID').innerHTML = (data);		
-//      })
-// }
+// Copyright 2020
+
 
 
 // Recall preset (set)
 // CGI request - P or PRESET
-// Requred Params - A / C,J,F
+// Required Params - A / C,J,F
 /**
  * recallPreset takes strings as argument
  * the data returned is added to a user defined div
  * @param {string} inputIp - ip address must be a string
  * @param {string} inputA - area input as a string
  * @param {string} inputP - preset input as a string
- * @param {string} divId - div ID as a string
  * 
  */
 
-const recallPreset = (inputIp, inputA, inputP, divId) => {
+const recallPreset = (inputIp, inputA, inputP) => {
     fetch(`http://${inputIp}/SetDyNet.cgi?a=${inputA}&p=${inputP}`,{
         method: "post"
     })
@@ -42,7 +29,7 @@ exports.recallPreset = recallPreset;
 
 // Request current preset (get)
 // CGI request - P or PRESET
-// Requred Params - A / C,J,F
+// Required Params - A / C,J,F
 /**
  * recallPreset takes strings as argument
  * the data returned is added to a user defined div
@@ -50,7 +37,6 @@ exports.recallPreset = recallPreset;
  * @param {string} inputA - area input as a string
  * @param {string} inputP - preset input as a string
  * @param {string} divId - div ID as a string
- * 
  */
 
 const requestPreset = (inputIp, inputA, inputP, divId) => {
@@ -64,8 +50,23 @@ exports.requestPreset = requestPreset;
 
 
 // Recall channel level (set)
-// 
+// CGI request - L or LEVEL
+// Required Params - A / C,J,F
+/**
+ * recallChannelLevel takes strings as argument
+ * the data returned is added to a user defined div
+ * @param {string} inputIp - ip address must be a string
+ * @param {string} inputA - area input as a string
+ * @param {string} inputL - preset input as a string
+ * 
+ */
 
+const recallChannelLevel = (inputIp, inputA, inputL) => {
+    fetch(`http://${inputIp}/SetDyNet.cgi?a=${inputA}&p=${inputL}`,{
+        method: "post"
+    })
+}
+exports.recallChannelLevel = recallChannelLevel;
 
 // Request current channel level(get)
 // 
