@@ -1,0 +1,267 @@
+﻿<LogicalExport date="2020-04-01" job="Be More Dog" folder_guid="DB7231E1-5711-41F6-82B6-D321594D493C" time="17:07:35" category="Group" id="Root">
+<Area area_guid="52473753-A9F2-4827-B30B-1A38485E3318" set_point_lux="0" channel_count="2" preset_count="9" category="Lighting" template="" location="" description="" name="Fill &amp; Drain Pumps" id="2">
+<Channel type="3" location="" description="" name="FIll" id="1"/>
+<Channel type="3" location="" description="" name="Drain" id="2"/>
+<Preset type="0" name="Drain" id="1">
+<ChannelLevel type="15" exclude="0" level="0" id="1"/>
+<ChannelLevel type="15" exclude="0" level="254" id="2"/>
+</Preset>
+
+<Preset type="0" name="Fill" id="2">
+<ChannelLevel type="15" exclude="0" level="177" id="1"/>
+<ChannelLevel type="15" exclude="0" level="0" id="2"/>
+</Preset>
+
+<Preset type="0" name="Off" id="3">
+<ChannelLevel type="15" exclude="0" level="0" id="1"/>
+<ChannelLevel type="15" exclude="0" level="0" id="2"/>
+</Preset>
+
+<Preset type="0" name="Fill 100mm" id="4">
+<ChannelLevel type="15" exclude="1" level="0" id="1"/>
+<ChannelLevel type="15" exclude="1" level="0" id="2"/>
+</Preset>
+
+<Preset type="0" name="Fill 200mm" id="5">
+<ChannelLevel type="15" exclude="1" level="203" id="1"/>
+<ChannelLevel type="15" exclude="1" level="203" id="2"/>
+</Preset>
+
+<Preset type="0" name="Fill 3mins" id="6">
+<ChannelLevel type="15" exclude="1" level="152" id="1"/>
+<ChannelLevel type="15" exclude="1" level="152" id="2"/>
+</Preset>
+<Preset type="0" name="Drain 100mm" id="7">
+<ChannelLevel type="15" exclude="1" level="127" id="1"/>
+<ChannelLevel type="15" exclude="1" level="127" id="2"/>
+</Preset>
+<Preset type="0" name="Drain 200mm" id="8">
+<ChannelLevel type="15" exclude="1" level="50" id="1"/>
+<ChannelLevel type="15" exclude="1" level="50" id="2"/>
+</Preset>
+<Preset type="0" name="Drain 3mins" id="9">
+<ChannelLevel type="15" exclude="1" level="254" id="1"/>
+<ChannelLevel type="15" exclude="1" level="254" id="2"/>
+</Preset>
+</Area>
+<Area area_guid="8FF5AC52-6C9C-481A-A1D2-BAE91A6262C7" set_point_lux="0" channel_count="1" preset_count="2" category="Lighting" template="" location="" description="" name="Treadmill On / Off" id="3">
+<Channel type="3" location="" description="" name="Treadmill Power" id="1"/>
+<Preset type="0" name="On" id="1">
+<ChannelLevel type="15" exclude="0" level="254" id="1"/>
+</Preset>
+<Preset type="0" name="Off" id="2">
+<ChannelLevel type="15" exclude="0" level="0" id="1"/>
+</Preset>
+</Area>
+<Area area_guid="0436DFA0-8579-4717-BBCF-54F5155B9FB9" set_point_lux="0" channel_count="2" preset_count="3" category="Lighting" template="" location="" description="" name="Heating System" id="4">
+<Channel type="3" location="" description="" name="Heater pump" id="1"/>
+<Channel type="3" location="" description="" name="Heater" id="2"/>
+<Preset type="0" name="Both" id="1">
+<ChannelLevel type="15" exclude="0" level="254" id="1"/>
+<ChannelLevel type="15" exclude="0" level="254" id="2"/>
+</Preset>
+<Preset type="0" name="Pump Only" id="2">
+<ChannelLevel type="15" exclude="0" level="177" id="1"/>
+<ChannelLevel type="15" exclude="0" level="0" id="2"/>
+</Preset>
+<Preset type="0" name="Off" id="3">
+<ChannelLevel type="15" exclude="0" level="0" id="1"/>
+<ChannelLevel type="15" exclude="0" level="0" id="2"/>
+</Preset>
+</Area>
+<Area area_guid="96227575-8CF0-4D12-A5B1-03F1CCB0BD78" set_point_lux="0" channel_count="3" preset_count="38" category="Lighting" template="" location="" description="" name="Treadmill Speed Control" id="5">
+<Channel type="4" location="" description="" name="VSD Controller" id="1"/>
+<Channel type="3" location="" description="" name="Back" id="2"/>
+<Channel type="3" location="" description="" name="Forward" id="3"/>
+<Preset type="0" name="Stop" id="1">
+<ChannelLevel type="15" exclude="1" level="215" id="1"/>
+<ChannelLevel type="15" exclude="0" level="0" id="2"/>
+<ChannelLevel type="15" exclude="0" level="0" id="3"/>
+</Preset>
+<Preset type="0" name="Start forward" id="2">
+<ChannelLevel type="15" exclude="1" level="113" id="1"/>
+<ChannelLevel type="15" exclude="0" level="0" id="2"/>
+<ChannelLevel type="15" exclude="0" level="254" id="3"/>
+</Preset>
+<Preset type="0" name="Start Backward" id="3">
+<ChannelLevel type="15" exclude="1" level="168" id="1"/>
+<ChannelLevel type="15" exclude="0" level="254" id="2"/>
+<ChannelLevel type="15" exclude="0" level="254" id="3"/>
+</Preset>
+<Preset type="0" name="5.15hz" id="4">
+<ChannelLevel type="15" exclude="0" level="252" id="1"/>
+<ChannelLevel type="15" exclude="1" level="0" id="2"/>
+<ChannelLevel type="15" exclude="1" level="0" id="3"/>
+</Preset>
+<Preset type="0" name="5.7Hz" id="5">
+<ChannelLevel type="15" exclude="0" level="249" id="1"/>
+<ChannelLevel type="15" exclude="1" level="0" id="2"/>
+<ChannelLevel type="15" exclude="1" level="0" id="3"/>
+</Preset>
+<Preset type="0" name="6.25Hz" id="6">
+<ChannelLevel type="15" exclude="0" level="246" id="1"/>
+<ChannelLevel type="15" exclude="1" level="177" id="2"/>
+<ChannelLevel type="15" exclude="1" level="0" id="3"/>
+</Preset>
+<Preset type="0" name="6.8Hz" id="7">
+<ChannelLevel type="15" exclude="0" level="243" id="1"/>
+<ChannelLevel type="15" exclude="1" level="177" id="2"/>
+<ChannelLevel type="15" exclude="1" level="0" id="3"/>
+</Preset>
+<Preset type="0" name="7.35Hz" id="8">
+<ChannelLevel type="15" exclude="0" level="240" id="1"/>
+<ChannelLevel type="15" exclude="1" level="0" id="2"/>
+<ChannelLevel type="15" exclude="1" level="0" id="3"/>
+</Preset>
+<Preset type="0" name="7.85Hz" id="9">
+<ChannelLevel type="15" exclude="0" level="237" id="1"/>
+<ChannelLevel type="15" exclude="1" level="0" id="2"/>
+<ChannelLevel type="15" exclude="1" level="0" id="3"/>
+</Preset>
+<Preset type="0" name="8.35Hz" id="10">
+<ChannelLevel type="15" exclude="0" level="234" id="1"/>
+<ChannelLevel type="15" exclude="1" level="177" id="2"/>
+<ChannelLevel type="15" exclude="1" level="177" id="3"/>
+</Preset>
+<Preset type="0" name="8.9Hz" id="11">
+<ChannelLevel type="15" exclude="0" level="231" id="1"/>
+<ChannelLevel type="15" exclude="1" level="101" id="2"/>
+<ChannelLevel type="15" exclude="1" level="101" id="3"/>
+</Preset>
+<Preset type="0" name="9.45Hz" id="12">
+<ChannelLevel type="15" exclude="0" level="228" id="1"/>
+<ChannelLevel type="15" exclude="1" level="0" id="2"/>
+<ChannelLevel type="15" exclude="1" level="0" id="3"/>
+</Preset>
+<Preset type="0" name="10Hz" id="13">
+<ChannelLevel type="15" exclude="0" level="225" id="1"/>
+<ChannelLevel type="15" exclude="1" level="203" id="2"/>
+<ChannelLevel type="15" exclude="1" level="203" id="3"/>
+</Preset>
+<Preset type="0" name="10.55Hz" id="14">
+<ChannelLevel type="15" exclude="0" level="222" id="1"/>
+<ChannelLevel type="15" exclude="1" level="152" id="2"/>
+<ChannelLevel type="15" exclude="1" level="152" id="3"/>
+</Preset>
+<Preset type="0" name="11.05Hz" id="15">
+<ChannelLevel type="15" exclude="0" level="219" id="1"/>
+<ChannelLevel type="15" exclude="1" level="0" id="2"/>
+<ChannelLevel type="15" exclude="1" level="254" id="3"/>
+</Preset>
+<Preset type="0" name="11.6Hz" id="16">
+<ChannelLevel type="15" exclude="0" level="216" id="1"/>
+<ChannelLevel type="15" exclude="1" level="254" id="2"/>
+<ChannelLevel type="15" exclude="1" level="0" id="3"/>
+</Preset>
+<Preset type="0" name="12.15Hz" id="17">
+<ChannelLevel type="15" exclude="0" level="213" id="1"/>
+<ChannelLevel type="15" exclude="1" level="254" id="2"/>
+<ChannelLevel type="15" exclude="1" level="254" id="3"/>
+</Preset>
+<Preset type="0" name="12.65Hz" id="18">
+<ChannelLevel type="15" exclude="0" level="210" id="1"/>
+<ChannelLevel type="15" exclude="1" level="177" id="2"/>
+<ChannelLevel type="15" exclude="1" level="177" id="3"/>
+</Preset>
+<Preset type="0" name="13.2Hz" id="19">
+<ChannelLevel type="15" exclude="0" level="207" id="1"/>
+<ChannelLevel type="15" exclude="1" level="101" id="2"/>
+<ChannelLevel type="15" exclude="1" level="101" id="3"/>
+</Preset>
+<Preset type="0" name="13.75Hz" id="20">
+<ChannelLevel type="15" exclude="0" level="204" id="1"/>
+<ChannelLevel type="15" exclude="1" level="0" id="2"/>
+<ChannelLevel type="15" exclude="1" level="0" id="3"/>
+</Preset>
+<Preset type="0" name="14.3Hz" id="21">
+<ChannelLevel type="15" exclude="0" level="201" id="1"/>
+<ChannelLevel type="15" exclude="1" level="203" id="2"/>
+<ChannelLevel type="15" exclude="1" level="203" id="3"/>
+</Preset>
+<Preset type="0" name="14.8Hz" id="22">
+<ChannelLevel type="15" exclude="0" level="198" id="1"/>
+<ChannelLevel type="15" exclude="1" level="152" id="2"/>
+<ChannelLevel type="15" exclude="1" level="152" id="3"/>
+</Preset>
+<Preset type="0" name="15.4Hz" id="23">
+<ChannelLevel type="15" exclude="0" level="195" id="1"/>
+<ChannelLevel type="15" exclude="1" level="127" id="2"/>
+<ChannelLevel type="15" exclude="1" level="127" id="3"/>
+</Preset>
+<Preset type="0" name="15.9Hz" id="24">
+<ChannelLevel type="15" exclude="0" level="192" id="1"/>
+<ChannelLevel type="15" exclude="1" level="50" id="2"/>
+<ChannelLevel type="15" exclude="1" level="50" id="3"/>
+</Preset>
+<Preset type="0" name="16.45Hz" id="25">
+<ChannelLevel type="15" exclude="0" level="189" id="1"/>
+<ChannelLevel type="15" exclude="1" level="254" id="2"/>
+<ChannelLevel type="15" exclude="1" level="254" id="3"/>
+</Preset>
+<Preset type="0" name="17Hz" id="26">
+<ChannelLevel type="15" exclude="0" level="185" id="1"/>
+<ChannelLevel type="15" exclude="1" level="177" id="2"/>
+<ChannelLevel type="15" exclude="1" level="177" id="3"/>
+</Preset>
+<Preset type="0" name="17.5Hz" id="27">
+<ChannelLevel type="15" exclude="0" level="182" id="1"/>
+<ChannelLevel type="15" exclude="1" level="101" id="2"/>
+<ChannelLevel type="15" exclude="1" level="101" id="3"/>
+</Preset>
+<Preset type="0" name="18.1Hz" id="28">
+<ChannelLevel type="15" exclude="0" level="179" id="1"/>
+<ChannelLevel type="15" exclude="1" level="0" id="2"/>
+<ChannelLevel type="15" exclude="1" level="0" id="3"/>
+</Preset>
+<Preset type="0" name="18.6Hz" id="29">
+<ChannelLevel type="15" exclude="0" level="176" id="1"/>
+<ChannelLevel type="15" exclude="1" level="203" id="2"/>
+<ChannelLevel type="15" exclude="1" level="203" id="3"/>
+</Preset>
+<Preset type="0" name="19.15Hz" id="30">
+<ChannelLevel type="15" exclude="0" level="173" id="1"/>
+<ChannelLevel type="15" exclude="1" level="152" id="2"/>
+<ChannelLevel type="15" exclude="1" level="152" id="3"/>
+</Preset>
+<Preset type="0" name="19.7Hz" id="31">
+<ChannelLevel type="15" exclude="0" level="170" id="1"/>
+<ChannelLevel type="15" exclude="1" level="127" id="2"/>
+<ChannelLevel type="15" exclude="1" level="127" id="3"/>
+</Preset>
+<Preset type="0" name="20.25Hz" id="32">
+<ChannelLevel type="15" exclude="0" level="167" id="1"/>
+<ChannelLevel type="15" exclude="1" level="50" id="2"/>
+<ChannelLevel type="15" exclude="1" level="50" id="3"/>
+</Preset>
+<Preset type="0" name="20.75Hz" id="33">
+<ChannelLevel type="15" exclude="0" level="164" id="1"/>
+<ChannelLevel type="15" exclude="1" level="254" id="2"/>
+<ChannelLevel type="15" exclude="1" level="254" id="3"/>
+</Preset>
+<Preset type="0" name="21.3Hz" id="34">
+<ChannelLevel type="15" exclude="0" level="161" id="1"/>
+<ChannelLevel type="15" exclude="1" level="177" id="2"/>
+<ChannelLevel type="15" exclude="1" level="177" id="3"/>
+</Preset>
+<Preset type="0" name="23.75Hz" id="35">
+<ChannelLevel type="15" exclude="0" level="148" id="1"/>
+<ChannelLevel type="15" exclude="1" level="101" id="2"/>
+<ChannelLevel type="15" exclude="1" level="101" id="3"/>
+</Preset>
+<Preset type="0" name="25.65Hz" id="36">
+<ChannelLevel type="15" exclude="0" level="138" id="1"/>
+<ChannelLevel type="15" exclude="1" level="0" id="2"/>
+<ChannelLevel type="15" exclude="1" level="0" id="3"/>
+</Preset>
+<Preset type="0" name="27.3Hz" id="37">
+<ChannelLevel type="15" exclude="0" level="128" id="1"/>
+<ChannelLevel type="15" exclude="1" level="203" id="2"/>
+<ChannelLevel type="15" exclude="1" level="203" id="3"/>
+</Preset>
+<Preset type="0" name="29.2Hz" id="38">
+<ChannelLevel type="15" exclude="0" level="118" id="1"/>
+<ChannelLevel type="15" exclude="1" level="152" id="2"/>
+<ChannelLevel type="15" exclude="1" level="152" id="3"/>
+</Preset>
+</Area>
+</LogicalExport>
