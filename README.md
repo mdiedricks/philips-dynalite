@@ -1,8 +1,24 @@
-# philips-dynalite
-## Build your own dynalite interface
+# Philips Dynalite
+> A growing, yet quite incomplete, set of functions intended to be dropped into an HTML interface, to contorl Philips Dynalites.
 
-Small library of functions you can implement in a basic website to control your dynalites.
-This readme contains instructions for those who might not already be familiar with javascript but want to implement these functions on a basic html page to control their dynalites.
+## Table of Contents
+* [General Information](#general-information)
+* [Project Status](#project-status)
+* [Setup Instructions](#setup-instructions)
+
+## General Information
+
+This project was instigated by a friend who was looking to built his own HTML interface to control some Dynalites, but wasn't sure how to implement the JavaScript.
+
+This requires a bit of setup on the part of the user, but if you understand how to attach JavaScript to a button then you're good to go.
+
+## Project Status
+
+The set of instructions is not complete as there were many available that weren't necessary at the time this project happened.
+
+I plan to build upon the functions and clean up the files when time allows again.
+
+## Setup Instructions
 
 To send parameters to your server functions to buttons with event listeners as follows:
 
